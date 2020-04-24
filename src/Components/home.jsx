@@ -12,7 +12,7 @@ class Home extends Component {
       <BrowserRouter>
         <NavBar></NavBar>
         <Switch>
-          <Route path="/(react-gh-pages|/)/" exact component={HomeData}></Route>
+          <Route path="/react-gh-pages" exact component={HomeData}></Route>
           <Route path="/about" exact component={About}></Route>
           <Route path="/videos" exact component={Videos}></Route>
           <Route path="/blog" exact component={Blog}></Route>

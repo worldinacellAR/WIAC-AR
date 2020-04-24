@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <Navbar sticky="top" className="navbar-dark bg-custom-2">
         <Nav className="mr-auto">
-          <Link to="/">
+          <Link to="/react-gh-pages">
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
