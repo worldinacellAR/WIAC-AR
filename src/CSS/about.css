@@ -1,0 +1,18 @@
+.card_font {
+  font-style: normal;
+  font-variant: normal;
+  font-family: "Nunito Sanse";
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+}
+
+.card_title {
+  font-weight: bold;
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+
+.card_underline {
+  text-decoration: underline;
+}
