@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <Navbar sticky="top" className="navbar-dark bg-custom-2">
         <Nav className="mr-auto">
-          <Link to="/react-gh-pages/home">
+          <Link to="/react-gh-pages">
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
@@ -18,7 +18,7 @@ class NavBar extends Component {
             </Nav>
           </Link>
 
-          <Link to="/react-gh-pages/about">
+          <Link to="/about">
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
@@ -27,7 +27,7 @@ class NavBar extends Component {
               About
             </Nav>
           </Link>
-          <Link to="react-gh-pages/videos">
+          <Link to="/videos">
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
@@ -37,7 +37,7 @@ class NavBar extends Component {
             </Nav>
           </Link>
 
-          <Link to="react-gh-pages/blog">
+          <Link to="/blog">
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
