@@ -12,17 +12,16 @@ var sectionStyle = {
   width: "100%",
   backgroundImage: `url(${BgImage})`,
 };
-
 class About extends Component {
   state = {};
   render() {
     return (
       <div>
-        <Carousel>
+        <Carousel style={{ margin: "1rem" }}>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              height="700"
+              height="900"
               src={BgImage}
               alt="First slide"
             />
@@ -33,7 +32,7 @@ class About extends Component {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              height="700"
+              height="900"
               className="d-block w-100"
               src={BgImage1}
               alt="Third slide"
@@ -46,7 +45,7 @@ class About extends Component {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              height="700"
+              height="900"
               className="d-block w-100"
               src={BgImage2}
               alt="Third slide"

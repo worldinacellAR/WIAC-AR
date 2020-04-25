@@ -1,0 +1,14 @@
+.card_title {
+  font-size: 3rem;
+  font-family: "Nunito Sans";
+}
+
+.card_text {
+  font-size: 1.2rem;
+  font-family: "Nunito Sans";
+}
+
+.card_center {
+  display: inline-block;
+  margin-top: 10%;
+}

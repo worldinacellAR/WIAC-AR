@@ -19,7 +19,7 @@ class Blog extends Component {
         >
           <Card.Header className="card_title">
             Project Start <br />
-            Thursday February 6th 2020
+            Thursday, February 6th 2020
           </Card.Header>
           <Card.Body>
             <Card.Text className="card_font">
