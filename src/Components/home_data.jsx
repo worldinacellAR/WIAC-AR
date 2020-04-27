@@ -97,7 +97,7 @@ class HomeData extends Component {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </Card.Text>
-                <Link to="/about" target="_blank">
+                <Link to="/react-gh-pages/about" target="_blank">
                   <Button
                     style={{ marginTop: "2%", marginLeft: "36%" }}
                     variant="info"
