@@ -12,7 +12,7 @@ class NavBar extends Component {
         className="navbar-dark bg-custom-2"
       >
         <Nav className="ml-auto">
-          <Link to="/">
+          <Link to="/react-gh-pages">
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
