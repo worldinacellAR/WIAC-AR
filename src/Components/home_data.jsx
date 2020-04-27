@@ -4,8 +4,9 @@ import BgImage from "../Files/WIAC00.jpg";
 import holoicon from "../Files/holo.png";
 import "../CSS/home_Data.css";
 import vr_icon from "../Files/vr_icon.png";
-import Bg2 from "../Files/WIAC03.jpg";
 import usc_logo from "../Files/usc_games.png";
+import v4 from "../Files/v4.1.png";
+import { Link } from "react-router-dom";
 
 import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
 
@@ -20,58 +21,90 @@ class HomeData extends Component {
         >
           <img src={BgImage} alt="Card image" />
           <div className="card-img-overlay card_center">
-            <Card.Text className="card_title">WIAC - AR</Card.Text>
+            <Card.Text style={{ fontSize: "7rem" }} className="card_title">
+              World in a cell AR
+            </Card.Text>
             <Card.Text style={{ margin: "1rem" }} className="card_text">
               Hello, this is our project
             </Card.Text>
-            <Button variant="success">Watch Trailer</Button>
-            <Button style={{ marginLeft: "1.5rem" }} variant="primary">
+            <Button style={{ marginTop: "1rem" }} variant="danger">
+              Watch Trailer
+            </Button>
+            <Button
+              style={{ marginTop: "1rem", marginLeft: "1.5rem" }}
+              variant="primary"
+            >
               Learn more
             </Button>
           </div>
         </div>
-        <div style={{ backgroundImage: `url(${Bg2})` }}>
+        <div
+          style={{
+            display: "flex",
+            height: "600px",
+            width: "100%",
+            backgroundImage: `url(${v4})`,
+          }}
+        >
           <CardDeck
             style={{
-              margin: "1% 1% 1% 10%",
-              display: "flex",
+              margin: "auto",
               flexDirection: "row",
             }}
           >
             <Card
-              border="light"
+              style={{
+                marginLeft: "10%",
+                display: "flex",
+                alignItems: "center",
+                borderRadius: "0.5rem",
+              }}
               bg="light"
               text="dark"
               className="col-md-3"
-              border="light"
             >
-              <Card.Img variant="top" src={vr_icon} />
+              <img height="150" width="150" src={vr_icon} />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title style={{ marginTop: "2%" }}>Card title</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </Card.Text>
+                <a
+                  style={{ marginTop: "2%", marginLeft: "36%" }}
+                  href="https://worldinacell.com/"
+                  class="btn btn-info"
+                  role="button"
+                  target="_blank"
+                >
+                  Learn more
+                </a>
               </Card.Body>
             </Card>
 
             <Card
-              style={{ borderRadius: "0.5rem" }}
-              border="light"
-              bg="ligh"
+              style={{ alignItems: "center", borderRadius: "0.5rem" }}
+              bg="light"
               text="dark"
               className="col-md-3"
-              border="light"
             >
-              <Card.Img variant="top" src={holoicon} />
+              <img width="150" height="150" src={holoicon} />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title style={{ marginTop: "2%" }}>Card title</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </Card.Text>
+                <Link to="/about" target="_blank">
+                  <Button
+                    style={{ marginTop: "2%", marginLeft: "36%" }}
+                    variant="info"
+                  >
+                    Learn more
+                  </Button>
+                </Link>
               </Card.Body>
             </Card>
           </CardDeck>
@@ -84,7 +117,7 @@ class HomeData extends Component {
               {
                 "Spring 2020 : Augmented, Mixed and Virtual reality class - World in a Cell Augmented Reality team"
               }
-              <img src={usc_logo} width="300" height="70"></img>
+              <img src={usc_logo} width="300" height="60"></img>
             </MDBContainer>
           </div>
         </MDBFooter>

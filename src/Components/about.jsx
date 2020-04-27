@@ -17,7 +17,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Carousel style={{ margin: "1rem" }}>
+        <Carousel>
           <Carousel.Item>
             <img
               className="d-block w-100"

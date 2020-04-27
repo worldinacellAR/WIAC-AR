@@ -1,13 +1,17 @@
 import React, { Component } from "react";
-import { Nav, Navbar, Form, Button, FormControl } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import "../CSS/navbarstyle.css";
 import { Link } from "react-router-dom";
 class NavBar extends Component {
   state = {};
   render() {
     return (
-      <Navbar sticky="top" className="navbar-dark bg-custom-2">
-        <Nav className="mr-auto">
+      <Navbar
+        style={{ alignContents: "right" }}
+        sticky="top"
+        className="navbar-dark bg-custom-2"
+      >
+        <Nav className="ml-auto">
           <Link to="/">
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
