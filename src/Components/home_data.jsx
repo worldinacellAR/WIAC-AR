@@ -5,7 +5,7 @@ import holoicon from "../Files/holo.png";
 import "../CSS/home_Data.css";
 import vr_icon from "../Files/vr_icon.png";
 import usc_logo from "../Files/usc_games.png";
-import v4 from "../Files/v4.1.png";
+import v4 from "../Files/v4.2.png";
 import { Link } from "react-router-dom";
 import bg_gradient from "../Files/angryimg.png";
 
@@ -30,17 +30,23 @@ class HomeData extends Component {
             <br />
             <br />
             <Link to="/videos">
-              <button
-                style={{ marginTop: "1rem" }}
-                type="button"
-                className="btn btn-danger"
-              >
+              <button type="button" className="btn btn-danger">
                 Watch Trailer
               </button>
             </Link>
+            <span
+              style={{
+                marginTop: "1rem",
+                marginLeft: "1rem",
+                fontSize: "2.1rem",
+                color: "#000",
+              }}
+            >
+              |
+            </span>
             <Link to="/about">
               <button
-                style={{ marginTop: "1rem", marginLeft: "1.5rem" }}
+                style={{ marginLeft: "1.5rem" }}
                 type="button"
                 className="btn btn-primary"
               >
@@ -52,7 +58,7 @@ class HomeData extends Component {
         <div
           style={{
             display: "flex",
-            height: "600px",
+            height: "800px",
             width: "100%",
             backgroundImage: `url(${v4})`,
           }}
@@ -76,20 +82,31 @@ class HomeData extends Component {
             >
               <img height="150" width="150" src={vr_icon} />
               <Card.Body>
-                <Card.Title style={{ marginTop: "2%" }}>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <Card.Title
+                  className="card_title"
+                  style={{
+                    marginTop: "2%",
+                    fontWeight: "bold",
+                    textAlign: "center",
+                  }}
+                >
+                  World in a cell{" "}
+                </Card.Title>
+                <Card.Text className="card_text">
+                  Led by Professor Alex McDowell at USC School of Cinematic
+                  Arts, the World-building Media Lab (WbML) began this major
+                  collaboration with the Bridge Institute, to create a fully
+                  experiential virtual world of a single Pancreatic Beta Cell,
+                  using the metaphor of the complex systems of a city.
                 </Card.Text>
                 <a
-                  style={{ marginTop: "2%", marginLeft: "36%" }}
+                  style={{ marginTop: "9%", marginLeft: "32%" }}
                   href="https://worldinacell.com/"
                   class="btn btn-info"
                   role="button"
                   target="_blank"
                 >
-                  Learn more
+                  Official Website
                 </a>
               </Card.Body>
             </Card>
@@ -102,11 +119,23 @@ class HomeData extends Component {
             >
               <img width="150" height="150" src={holoicon} />
               <Card.Body>
-                <Card.Title style={{ marginTop: "2%" }}>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <Card.Title
+                  className="card_title"
+                  style={{
+                    marginTop: "2%",
+                    fontWeight: "bold",
+                    textAlign: "center",
+                  }}
+                >
+                  World in a cell AR Experience
+                </Card.Title>
+                <Card.Text className="card_text">
+                  Our project extends the existing work done by the World in a
+                  Cell team into an AR experience using Microsoft hololens 1 for
+                  viewing and interaction, supporting multi-player and real-time
+                  interaction between players. This experience allows the
+                  players to understand more about the synergy of several
+                  proteins inside the pancreatic beta cells.
                 </Card.Text>
                 <Link to="/about">
                   <button
@@ -129,10 +158,11 @@ class HomeData extends Component {
           >
             <MDBContainer fluid>
               <br />
-              &copy; {new Date().getFullYear()} Copyright:
+              &copy; {new Date().getFullYear()}
               {
-                "Spring 2020 : Augmented, Mixed and Virtual reality class - World in a Cell Augmented Reality team"
+                "Spring 2020 CSCI 538 Augmented, Virtual, and Mixed Reality - World in a Cell Augmented Reality team"
               }
+              <img src={usc_logo} width="200" height="50"></img>
             </MDBContainer>
           </div>
         </MDBFooter>

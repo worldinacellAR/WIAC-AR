@@ -7,6 +7,9 @@ import vs_logo from "../Files/vs.png";
 import BgImage from "../Files/WIAC00.jpg";
 import BgImage1 from "../Files/WIAC02.png";
 import BgImage2 from "../Files/WIAC03.jpg";
+import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
+import usc_logo from "../Files/usc_games.png";
+import bg_gradient from "../Files/angryimg.png";
 
 var sectionStyle = {
   width: "100%",
@@ -177,6 +180,22 @@ class About extends Component {
             </ListGroup.Item>
           </ListGroup>
         </Card>
+        <MDBFooter className="font-small">
+          <MDBContainer fluid className="text-center"></MDBContainer>
+          <div
+            style={{ backgroundImage: `url(${bg_gradient})` }}
+            className="footer-copyright text-center bg_footer"
+          >
+            <MDBContainer fluid>
+              <br />
+              &copy; {new Date().getFullYear()}
+              {
+                "Spring 2020 CSCI 538 Augmented, Virtual, and Mixed Reality - World in a Cell Augmented Reality team"
+              }
+              <img src={usc_logo} width="200" height="50"></img>
+            </MDBContainer>
+          </div>
+        </MDBFooter>
       </div>
     );
   }
