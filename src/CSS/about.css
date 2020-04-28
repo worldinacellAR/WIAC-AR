@@ -16,3 +16,11 @@
 .card_underline {
   text-decoration: underline;
 }
+
+.bg_img_about {
+  background: url("../Files/WIAC00.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

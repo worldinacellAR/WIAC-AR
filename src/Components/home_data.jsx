@@ -100,7 +100,7 @@ class HomeData extends Component {
                   using the metaphor of the complex systems of a city.
                 </Card.Text>
                 <a
-                  style={{ marginTop: "9%", marginLeft: "32%" }}
+                  style={{ marginTop: "2.5rem", marginLeft: "32%" }}
                   href="https://worldinacell.com/"
                   class="btn btn-info"
                   role="button"
@@ -152,17 +152,12 @@ class HomeData extends Component {
         </div>
         <MDBFooter className="font-small">
           <MDBContainer fluid className="text-center"></MDBContainer>
-          <div
-            style={{ backgroundImage: `url(${bg_gradient})` }}
-            className="footer-copyright text-center bg_footer"
-          >
+          <div className="footer-copyright text-center bg_footer">
             <MDBContainer fluid>
               <br />
-              &copy; {new Date().getFullYear()}
-              {
-                "Spring 2020 CSCI 538 Augmented, Virtual, and Mixed Reality - World in a Cell Augmented Reality team"
-              }
-              <img src={usc_logo} width="200" height="50"></img>
+              &copy;
+              {"Spring 2020 CSCI 538 Augmented, Virtual, and Mixed Reality"}
+              <img src={usc_logo} height="50"></img>
             </MDBContainer>
           </div>
         </MDBFooter>

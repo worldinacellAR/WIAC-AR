@@ -1,0 +1,7 @@
+.bg_img_blog {
+  background: url("../Files/WIAC03.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

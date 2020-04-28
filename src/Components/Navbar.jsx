@@ -13,36 +13,24 @@ class NavBar extends Component {
       >
         <Nav className="ml-auto">
           <Link to="/">
-            <Nav
-              style={{ color: "#fff", margin: "1rem" }}
-              className="navlinks"
-            >
+            <Nav style={{ color: "#fff", margin: "1rem" }} className="navlinks">
               Home
             </Nav>
           </Link>
 
           <Link to="/about">
-            <Nav
-              style={{ color: "#fff", margin: "1rem" }}
-              className="navlinks"
-            >
+            <Nav style={{ color: "#fff", margin: "1rem" }} className="navlinks">
               About
             </Nav>
           </Link>
           <Link to="/videos">
-            <Nav
-              style={{ color: "#fff", margin: "1rem" }}
-              className="navlinks"
-            >
-              Videos
+            <Nav style={{ color: "#fff", margin: "1rem" }} className="navlinks">
+              Media
             </Nav>
           </Link>
 
           <Link to="/blog">
-            <Nav
-              style={{ color: "#fff", margin: "1rem" }}
-              className="navlinks"
-            >
+            <Nav style={{ color: "#fff", margin: "1rem" }} className="navlinks">
               Blog
             </Nav>
           </Link>

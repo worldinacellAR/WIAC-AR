@@ -4,23 +4,33 @@ import "../CSS/about.css";
 import usc_logo from "../Files/usc_games.png";
 import bg_gradient from "../Files/angryimg.png";
 import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
+import "../CSS/blog.css";
 
 class Blog extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <h4 style={{ margin: "1rem" }}>
-          The blog highlights the work done on the project and related materials
-          in a weekly manner from start to end of the semester.
-        </h4>
+      <div className="bg_img_blog">
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            textAlign: "center",
+            backgroundImage: `url(${bg_gradient})`,
+            fontFamily: "Permanent Marker, cursive",
+          }}
+        >
+          <Card.Title>BLOG</Card.Title>
+        </Card>
+        <Card
+          style={{
+            marginTop: "2rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Project Start <br />
             Thursday, February 6th 2020
           </Card.Header>
@@ -48,12 +58,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Monday, February 10th 2020
           </Card.Header>
@@ -81,12 +95,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Wednesday, February 12th 2020.
           </Card.Header>
@@ -105,12 +123,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Thursday, February 13th 2020.
           </Card.Header>
@@ -126,12 +148,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Monday, February 17th 2020
           </Card.Header>
@@ -162,12 +188,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Wednesday, February 19th 2020
           </Card.Header>
@@ -195,12 +225,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Monday, February 24th 2020
           </Card.Header>
@@ -229,12 +263,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             WBML Demo <br />
             Tuesday, February 25th 2020
           </Card.Header>
@@ -253,12 +291,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Wednesday, February 26th 2020
           </Card.Header>
@@ -287,12 +329,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Thursday, February 27th 2020
           </Card.Header>
@@ -314,12 +360,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Friday, February 28th 2020
           </Card.Header>
@@ -342,12 +392,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Monday, March 2nd 2020
           </Card.Header>
@@ -368,12 +422,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Tuesday, March 3rd 2020
           </Card.Header>
@@ -387,12 +445,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="danger"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Wednesday, March 4th 2020
           </Card.Header>
@@ -412,12 +474,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Thursday, March 5th 2020
           </Card.Header>
@@ -442,12 +508,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Monday, March 9th 2020
           </Card.Header>
@@ -467,12 +537,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Tuesday, March 10th 2020
           </Card.Header>
@@ -492,12 +566,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Wednesday, March 11th 2020
           </Card.Header>
@@ -514,12 +592,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Meetup <br />
             Thursday, March 12th 2020
           </Card.Header>
@@ -532,12 +614,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Wednesday, March 25th 2020
           </Card.Header>
@@ -554,12 +640,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Monday, March 30th 2020
           </Card.Header>
@@ -578,12 +668,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Wednesday, April 1st 2020
           </Card.Header>
@@ -604,12 +698,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Thursday, April 2nd 2020
           </Card.Header>
@@ -626,12 +724,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Saturday, April 4th 2020
           </Card.Header>
@@ -646,12 +748,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Tuesday, April 7th 2020
           </Card.Header>
@@ -672,12 +778,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Wednesday, April 9th 2020
           </Card.Header>
@@ -689,12 +799,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Friday, April 10th 2020
           </Card.Header>
@@ -709,12 +823,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Tuesday, April 14th 2020
           </Card.Header>
@@ -734,12 +852,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Wednesday, April 15th 2020
           </Card.Header>
@@ -761,12 +883,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Thursday, April 16th 2020
           </Card.Header>
@@ -777,12 +903,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Friday, April 17th 2020
           </Card.Header>
@@ -794,12 +924,16 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Saturday, April 18th 2020
           </Card.Header>
@@ -814,12 +948,17 @@ class Blog extends Component {
           </Card.Body>
         </Card>
         <Card
-          style={{ margin: "1rem" }}
-          bg="dark"
-          text="light"
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+            marginBottom: "1rem",
+          }}
+          bg="light"
+          text="dark"
           border="secondary"
         >
-          <Card.Header className="card_title">
+          <Card.Header className="card_title text-danger">
             Call Meeting <br />
             Tuesday, April 21st 2020
           </Card.Header>
@@ -844,16 +983,11 @@ class Blog extends Component {
         </Card>
         <MDBFooter className="font-small">
           <MDBContainer fluid className="text-center"></MDBContainer>
-          <div
-            style={{ backgroundImage: `url(${bg_gradient})` }}
-            className="footer-copyright text-center bg_footer"
-          >
+          <div className="footer-copyright text-center bg_footer">
             <MDBContainer fluid>
               <br />
-              &copy; {new Date().getFullYear()}
-              {
-                "Spring 2020 CSCI 538 Augmented, Virtual, and Mixed Reality - World in a Cell Augmented Reality team"
-              }
+              &copy;
+              {"Spring 2020 CSCI 538 Augmented, Virtual, and Mixed Reality"}
               <img src={usc_logo} width="200" height="50"></img>
             </MDBContainer>
           </div>
