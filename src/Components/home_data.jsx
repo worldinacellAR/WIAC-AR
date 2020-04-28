@@ -8,12 +8,37 @@ import usc_logo from "../Files/usc_games.png";
 import v4 from "../Files/v4.2.png";
 import { Link } from "react-router-dom";
 import bg_gradient from "../Files/angryimg.png";
-
+import bg_video from "../Files/oneplayerdemo.mp4";
+import { IoIosPause } from "react-icons/io";
+import pause_img from "../Files/pause.png";
+import play_img from "../Files/play.png";
 import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
 import About from "./about";
-
 class HomeData extends Component {
-  state = {};
+  state = {
+    imgLink: "https://img.icons8.com/dotty/80/000000/pause.png",
+  };
+  playVideo() {
+    if (this.refs.vidRef.paused) {
+      this.setState(
+        {
+          imgLink: "https://img.icons8.com/dotty/80/000000/pause.png",
+        },
+        () => {
+          this.refs.vidRef.play();
+        }
+      );
+    } else {
+      this.setState(
+        {
+          imgLink: "https://img.icons8.com/dotty/80/000000/youtube-play.png",
+        },
+        () => {
+          this.refs.vidRef.pause();
+        }
+      );
+    }
+  }
   render() {
     return (
       <React.Fragment>
@@ -21,12 +46,36 @@ class HomeData extends Component {
           className="card bg-dark text-white"
           style={{ textAlign: "center", height: "100%" }}
         >
-          <img src={bg_gradient} height="850" alt="Card image" />
+          <div className="wrapper">
+            <video
+              ref="vidRef"
+              className="video"
+              id="background-video"
+              width="100%"
+              loop
+              autoPlay
+              muted
+            >
+              <source src={bg_video} type="video/mp4" />
+            </video>
+            <div
+              style={{
+                cursor: "pointer",
+                backgroundImage: `url(${this.state.imgLink})`,
+              }}
+              onClick={this.playVideo.bind(this)}
+              className="playpause"
+            />
+          </div>
+
           <div className="card-img-overlay card_center">
-            <Card.Text style={{ fontSize: "7rem" }} className="card_title_home">
+            <Card.Text
+              style={{ fontSize: "7rem", letterSpacing: "0.1rem" }}
+              className="card_title_home"
+            >
               World in a cell AR
             </Card.Text>
-            <img src={usc_logo} width="200" height="50"></img>
+            <img src={usc_logo} height="78"></img>
             <br />
             <br />
             <Link to="/videos">

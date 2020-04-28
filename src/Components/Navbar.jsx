@@ -11,6 +11,18 @@ class NavBar extends Component {
         sticky="top"
         className="navbar-dark bg-custom-2"
       >
+        <Nav
+          style={{
+            fontFamily: "Nunito-Sans",
+            fontStyle: "oblique",
+            fontSize: "1.5rem",
+            color: "#fff",
+            margin: "1rem",
+          }}
+          className="navlinks"
+        >
+          World in a cell AR
+        </Nav>
         <Nav className="ml-auto">
           <Link to="/">
             <Nav style={{ color: "#fff", margin: "1rem" }} className="navlinks">
