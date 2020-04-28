@@ -9,6 +9,7 @@ import v4 from "../Files/v4.1.png";
 import { Link } from "react-router-dom";
 
 import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
+import About from "./about";
 
 class HomeData extends Component {
   state = {};
@@ -97,13 +98,8 @@ class HomeData extends Component {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </Card.Text>
-                <Link to="/about" target="_blank">
-                  <Button
-                    style={{ marginTop: "2%", marginLeft: "36%" }}
-                    variant="info"
-                  >
-                    Learn more
-                  </Button>
+                <Link to="/about">
+                  <button type="button">Learn more</button>
                 </Link>
               </Card.Body>
             </Card>
@@ -112,7 +108,7 @@ class HomeData extends Component {
         <MDBFooter className="font-small">
           <MDBContainer fluid className="text-center"></MDBContainer>
           <div className="footer-copyright text-center">
-            <MDBContainer fluid >
+            <MDBContainer fluid>
               <br />
               &copy; {new Date().getFullYear()} Copyright:
               {
