@@ -1,17 +1,14 @@
 import React, { Component } from "react";
 import { Card, Button, CardDeck } from "react-bootstrap";
-import BgImage from "../Files/WIAC00.jpg";
+import BgImage from "../Files/WIAC03.jpg";
 import holoicon from "../Files/holo.png";
 import "../CSS/home_Data.css";
 import vr_icon from "../Files/vr_icon.png";
 import usc_logo from "../Files/usc_games.png";
 import v4 from "../Files/v4.2.png";
 import { Link } from "react-router-dom";
-import bg_gradient from "../Files/angryimg.png";
 import bg_video from "../Files/oneplayerdemo.mp4";
-import { IoIosPause } from "react-icons/io";
-import pause_img from "../Files/pause.png";
-import play_img from "../Files/play.png";
+
 import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
 import About from "./about";
 class HomeData extends Component {
@@ -44,7 +41,7 @@ class HomeData extends Component {
       <React.Fragment>
         <div
           className="card bg-dark text-white"
-          style={{ textAlign: "center", height: "100%" }}
+          style={{ textAlign: "center", height: "50%" }}
         >
           <div className="wrapper">
             <video
@@ -129,7 +126,7 @@ class HomeData extends Component {
               text="dark"
               className="col-md-3"
             >
-              <img height="150" width="150" src={vr_icon} />
+              <img height="200" width="475" src={BgImage} />
               <Card.Body>
                 <Card.Title
                   className="card_title"
@@ -148,15 +145,17 @@ class HomeData extends Component {
                   experiential virtual world of a single Pancreatic Beta Cell,
                   using the metaphor of the complex systems of a city.
                 </Card.Text>
-                <a
-                  style={{ marginTop: "2.5rem", marginLeft: "32%" }}
-                  href="https://worldinacell.com/"
-                  class="btn btn-info"
-                  role="button"
-                  target="_blank"
-                >
-                  Official Website
-                </a>
+                <div style={{ width: "100%", textAlign: "center" }}>
+                  <a
+                    style={{ margin: "0 auto", display: "inline-block" }}
+                    href="https://worldinacell.com/"
+                    class="btn btn-info"
+                    role="button"
+                    target="_blank"
+                  >
+                    Official Website
+                  </a>
+                </div>
               </Card.Body>
             </Card>
 
@@ -186,15 +185,17 @@ class HomeData extends Component {
                   players to understand more about the synergy of several
                   proteins inside the pancreatic beta cells.
                 </Card.Text>
-                <Link to="/about">
-                  <button
-                    style={{ marginTop: "2%", marginLeft: "36%" }}
-                    type="button"
-                    className="btn btn-info"
-                  >
-                    Learn more
-                  </button>
-                </Link>
+                <div style={{ width: "100%", textAlign: "center" }}>
+                  <Link to="/about">
+                    <button
+                      style={{ margin: "4% auto", display: "inline-block" }}
+                      type="button"
+                      className="btn btn-info"
+                    >
+                      Learn more
+                    </button>
+                  </Link>
+                </div>
               </Card.Body>
             </Card>
           </CardDeck>
