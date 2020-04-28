@@ -28,15 +28,24 @@ class HomeData extends Component {
             <Card.Text style={{ margin: "1rem" }} className="card_text">
               Hello, this is our project
             </Card.Text>
-            <Button style={{ marginTop: "1rem" }} variant="danger">
-              Watch Trailer
-            </Button>
-            <Button
-              style={{ marginTop: "1rem", marginLeft: "1.5rem" }}
-              variant="primary"
-            >
-              Learn more
-            </Button>
+            <Link to="/videos">
+              <button
+                style={{ marginTop: "1rem" }}
+                type="button"
+                className="btn btn-danger"
+              >
+                Watch Trailer
+              </button>
+            </Link>
+            <Link to="/about">
+              <button
+                style={{ marginTop: "1rem", marginLeft: "1.5rem" }}
+                type="button"
+                className="btn btn-primary"
+              >
+                Learn more
+              </button>
+            </Link>
           </div>
         </div>
         <div
@@ -99,7 +108,13 @@ class HomeData extends Component {
                   longer.
                 </Card.Text>
                 <Link to="/about">
-                  <button type="button">Learn more</button>
+                  <button
+                    style={{ marginTop: "2%", marginLeft: "36%" }}
+                    type="button"
+                    className="btn btn-info"
+                  >
+                    Learn more
+                  </button>
                 </Link>
               </Card.Body>
             </Card>

@@ -9,10 +9,10 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <NavBar></NavBar>
         <Switch>
-          <Route path="/react-gh-pages" exact component={HomeData}></Route>
+          <Route path="/" exact component={HomeData}></Route>
           <Route path="/about" exact component={About}></Route>
           <Route path="/videos" exact component={Videos}></Route>
           <Route path="/blog" exact component={Blog}></Route>

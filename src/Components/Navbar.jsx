@@ -12,11 +12,10 @@ class NavBar extends Component {
         className="navbar-dark bg-custom-2"
       >
         <Nav className="ml-auto">
-          <Link to="/react-gh-pages">
+          <Link to="/">
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
-              href="#home"
             >
               Home
             </Nav>
@@ -26,7 +25,6 @@ class NavBar extends Component {
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
-              href="#about"
             >
               About
             </Nav>
@@ -35,7 +33,6 @@ class NavBar extends Component {
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
-              href="#videos"
             >
               Videos
             </Nav>
@@ -45,7 +42,6 @@ class NavBar extends Component {
             <Nav
               style={{ color: "#fff", margin: "1rem" }}
               className="navlinks"
-              href="#blog"
             >
               Blog
             </Nav>
