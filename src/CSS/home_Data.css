@@ -13,6 +13,13 @@
   margin-top: 10%;
 }
 
-body{
+body {
   height: 100%;
 }
+
+.card_title_home {
+  font-size: 3rem;
+  font-family: "Nunito Sans";
+  color: #000000;
+}
+

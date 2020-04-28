@@ -7,6 +7,7 @@ import vr_icon from "../Files/vr_icon.png";
 import usc_logo from "../Files/usc_games.png";
 import v4 from "../Files/v4.1.png";
 import { Link } from "react-router-dom";
+import bg_gradient from "../Files/angryimg.png";
 
 import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
 import About from "./about";
@@ -20,14 +21,14 @@ class HomeData extends Component {
           className="card bg-dark text-white"
           style={{ textAlign: "center", height: "100%" }}
         >
-          <img src={BgImage} alt="Card image" />
+          <img src={bg_gradient} height="850" alt="Card image" />
           <div className="card-img-overlay card_center">
-            <Card.Text style={{ fontSize: "7rem" }} className="card_title">
+            <Card.Text style={{ fontSize: "7rem" }} className="card_title_home">
               World in a cell AR
             </Card.Text>
-            <Card.Text style={{ margin: "1rem" }} className="card_text">
-              Hello, this is our project
-            </Card.Text>
+            <img src={usc_logo} width="200" height="50"></img>
+            <br />
+            <br />
             <Link to="/videos">
               <button
                 style={{ marginTop: "1rem" }}
@@ -122,14 +123,16 @@ class HomeData extends Component {
         </div>
         <MDBFooter className="font-small">
           <MDBContainer fluid className="text-center"></MDBContainer>
-          <div className="footer-copyright text-center">
+          <div
+            style={{ backgroundImage: `url(${bg_gradient})` }}
+            className="footer-copyright text-center bg_footer"
+          >
             <MDBContainer fluid>
               <br />
               &copy; {new Date().getFullYear()} Copyright:
               {
                 "Spring 2020 : Augmented, Mixed and Virtual reality class - World in a Cell Augmented Reality team"
               }
-              <img src={usc_logo} width="200" height="50"></img>
             </MDBContainer>
           </div>
         </MDBFooter>
