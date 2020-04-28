@@ -104,7 +104,7 @@ class HomeData extends Component {
         <div
           style={{
             display: "flex",
-            height: "800px",
+            height: "100vh",
             width: "100%",
             backgroundImage: `url(${v4})`,
           }}
@@ -126,7 +126,7 @@ class HomeData extends Component {
               text="dark"
               className="col-md-3"
             >
-              <img height="200" width="475" src={BgImage} />
+              <img style={{ width: "25vw", height : "20vh"}} src={BgImage} />
               <Card.Body>
                 <Card.Title
                   className="card_title"
