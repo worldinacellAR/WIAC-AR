@@ -15,7 +15,8 @@ class Blog extends Component {
           style={{
             textAlign: "center",
             backgroundImage: `url(${bg_gradient})`,
-            fontFamily: "Permanent Marker, cursive",
+            fontFamily: "Nunito Sans",
+            fontWeight: "bold",
           }}
         >
           <Card.Title>BLOG</Card.Title>
