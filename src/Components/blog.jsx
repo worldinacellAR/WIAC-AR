@@ -451,7 +451,7 @@ class Blog extends Component {
             marginRight: "18rem",
           }}
           bg="light"
-          text="danger"
+          text="dark"
           border="secondary"
         >
           <Card.Header className="card_title text-danger">
@@ -978,6 +978,38 @@ class Blog extends Component {
               discussing about the sparkle asset with Prof. Vangelis tomorrow.
               We discussed how to create a website for our project and whether
               we would be making a poster for our project or not.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{
+            marginTop: "1rem",
+            marginLeft: "18rem",
+            marginRight: "18rem",
+            marginBottom: "1rem",
+          }}
+          bg="light"
+          text="dark"
+          border="secondary"
+        >
+          <Card.Header className="card_title text-danger">
+            Call Meeting <br />
+            Friday, April 24th 2020
+          </Card.Header>
+          <Card.Body>
+            <Card.Text className="card_font">
+              This was the final call meeting with the professor Vangelis. This
+              meeting was about touching up and cleaning up the gameplay and the
+              overall experience. Professor recommended us to use the single
+              protein in the centre of the playspace and smack the other
+              proteins to hit the centered protein to make the experience more
+              like a game. We then suggested having floor space instead and to
+              thus eliminate the cylindrical wireframe. As discussed with
+              Colleen, we had decided to use sparkles when the two proteins
+              collided. Professor wanted us to visualize the actual reaction of
+              the proteins and what would happen in real time and then suggested
+              replacing the sparkles. We suggested using the force field asset
+              to show the protein interaction.
             </Card.Text>
           </Card.Body>
         </Card>
