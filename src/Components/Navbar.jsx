@@ -14,7 +14,6 @@ class NavBar extends Component {
         <Nav
           style={{
             fontFamily: "Nunito-Sans",
-            fontStyle: "oblique",
             fontSize: "1.5rem",
             color: "#fff",
             margin: "1rem",

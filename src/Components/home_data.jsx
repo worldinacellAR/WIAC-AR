@@ -3,14 +3,13 @@ import { Card, Button, CardDeck } from "react-bootstrap";
 import BgImage from "../Files/WIAC03.jpg";
 import holoicon from "../Files/holo.png";
 import "../CSS/home_Data.css";
-import vr_icon from "../Files/vr_icon.png";
 import usc_logo from "../Files/usc_games.png";
 import v4 from "../Files/v4.2.png";
 import { Link } from "react-router-dom";
 import bg_video from "../Files/oneplayerdemo.mp4";
 
-import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
-import About from "./about";
+import { MDBFooter, MDBContainer, MDBRow } from "mdbreact";
+
 class HomeData extends Component {
   state = {
     imgLink: "https://img.icons8.com/dotty/80/000000/pause.png",
@@ -41,18 +40,10 @@ class HomeData extends Component {
       <React.Fragment>
         <div
           className="card bg-dark text-white"
-          style={{ textAlign: "center", height: "50%" }}
+          style={{ textAlign: "center" }}
         >
           <div className="wrapper">
-            <video
-              ref="vidRef"
-              className="video"
-              id="background-video"
-              width="100%"
-              loop
-              autoPlay
-              muted
-            >
+            <video ref="vidRef" width="100%" loop autoPlay muted>
               <source src={bg_video} type="video/mp4" />
             </video>
             <div
@@ -80,16 +71,6 @@ class HomeData extends Component {
                 Watch Trailer
               </button>
             </Link>
-            <span
-              style={{
-                marginTop: "1rem",
-                marginLeft: "1rem",
-                fontSize: "2.1rem",
-                color: "#000",
-              }}
-            >
-              |
-            </span>
             <Link to="/about">
               <button
                 style={{ marginLeft: "1.5rem" }}
@@ -126,7 +107,7 @@ class HomeData extends Component {
               text="dark"
               className="col-md-3"
             >
-              <img style={{ width: "25vw", height : "20vh"}} src={BgImage} />
+              <img style={{ width: "25vw", height: "20vh" }} src={BgImage} />
               <Card.Body>
                 <Card.Title
                   className="card_title"
