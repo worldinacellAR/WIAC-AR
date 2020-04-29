@@ -17,7 +17,7 @@ class Videos extends Component {
             fontFamily: "Permanent Marker, cursive",
           }}
         >
-          <Card.Title>VIDEOS</Card.Title>
+          <Card.Title>MEDIA</Card.Title>
         </Card>
         <MDBFooter className="font-small">
           <MDBContainer fluid className="text-center"></MDBContainer>
