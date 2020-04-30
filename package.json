@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "http://worldinacellAR.github.io/WIAC-AR",
+  "homepage": "https://worldinacellAR.github.io/WIAC-AR",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
