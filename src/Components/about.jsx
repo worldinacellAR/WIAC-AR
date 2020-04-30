@@ -170,7 +170,7 @@ class About extends Component {
             </ListGroup.Item>
           </ListGroup>
         </Card>
-        <MDBFooter className="font-small">
+        <MDBFooter style={{ background: "#fff" }} className="font-small">
           <MDBContainer fluid className="text-center"></MDBContainer>
           <div className="footer-copyright text-center bg_footer">
             <MDBContainer fluid>

@@ -1,7 +1,20 @@
-.bg_img_videos {
-  background: url("../Files/WIAC02.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.wrapper {
+  display: table;
+  width: auto;
+  position: relative;
+  margin-bottom: -1%;
+}
+.playpause_videos {
+  background-image: url(https://img.icons8.com/carbon-copy/100/000000/pause.png);
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 45%;
+  right: 100%;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
 }
