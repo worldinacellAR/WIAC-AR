@@ -5,7 +5,7 @@ import { MDBCol, MDBFooter, MDBContainer, MDBRow } from "mdbreact";
 import "../CSS/videos.css";
 import { CardDeck, Card } from "react-bootstrap";
 import video1 from "../Files/oneplayerdemo.mp4";
-
+import trailer_video from "../Files/WIAC_Trailer.mp4";
 class Videos extends Component {
   state = {
     imgLink1: "https://img.icons8.com/color/48/000000/youtube-play.png",
@@ -55,48 +55,48 @@ class Videos extends Component {
       );
     }
   }
-  playVideo3() {
-    if (this.refs.vidRef3.paused) {
-      this.setState(
-        {
-          imgLink3: "https://img.icons8.com/color/48/000000/pause-squared.png",
-        },
-        () => {
-          this.refs.vidRef3.play();
-        }
-      );
-    } else {
-      this.setState(
-        {
-          imgLink3: "https://img.icons8.com/color/48/000000/youtube-play.png",
-        },
-        () => {
-          this.refs.vidRef3.pause();
-        }
-      );
-    }
-  }
-  playVideo4() {
-    if (this.refs.vidRef4.paused) {
-      this.setState(
-        {
-          imgLink4: "https://img.icons8.com/color/48/000000/pause-squared.png",
-        },
-        () => {
-          this.refs.vidRef4.play();
-        }
-      );
-    } else {
-      this.setState(
-        {
-          imgLink4: "https://img.icons8.com/color/48/000000/youtube-play.png",
-        },
-        () => {
-          this.refs.vidRef4.pause();
-        }
-      );
-    }
-  }
+  // playVideo3() {
+  //   if (this.refs.vidRef3.paused) {
+  //     this.setState(
+  //       {
+  //         imgLink3: "https://img.icons8.com/color/48/000000/pause-squared.png",
+  //       },
+  //       () => {
+  //         this.refs.vidRef3.play();
+  //       }
+  //     );
+  //   } else {
+  //     this.setState(
+  //       {
+  //         imgLink3: "https://img.icons8.com/color/48/000000/youtube-play.png",
+  //       },
+  //       () => {
+  //         this.refs.vidRef3.pause();
+  //       }
+  //     );
+  //   }
+  // }
+  // playVideo4() {
+  //   if (this.refs.vidRef4.paused) {
+  //     this.setState(
+  //       {
+  //         imgLink4: "https://img.icons8.com/color/48/000000/pause-squared.png",
+  //       },
+  //       () => {
+  //         this.refs.vidRef4.play();
+  //       }
+  //     );
+  //   } else {
+  //     this.setState(
+  //       {
+  //         imgLink4: "https://img.icons8.com/color/48/000000/youtube-play.png",
+  //       },
+  //       () => {
+  //         this.refs.vidRef4.pause();
+  //       }
+  //     );
+  //   }
+  // }
   render() {
     return (
       <div className="bg_img_videos">
@@ -124,8 +124,8 @@ class Videos extends Component {
               Trailer
             </Card.Header>
             <div className="wrapper">
-              <video ref="vidRef1" width="100%" loop muted>
-                <source src={video1} type="video/mp4" />
+              <video ref="vidRef1" width="100%" loop>
+                <source src={trailer_video} type="video/mp4" />
               </video>
               <div
                 style={{
