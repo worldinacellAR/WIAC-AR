@@ -150,7 +150,7 @@ class HomeData extends Component {
               text="dark"
               className="col-md-3"
             >
-              <img width="150" height="150" src={holoicon} />
+              <img width="200vw" height="200vh" src={holoicon} />
               <Card.Body>
                 <Card.Title
                   className="card_title"
@@ -160,7 +160,7 @@ class HomeData extends Component {
                     textAlign: "center",
                   }}
                 >
-                  World in a cell AR Experience
+                  World in a cell AR
                 </Card.Title>
                 <Card.Text className="card_text">
                   Our project extends the existing work done by the World in a
