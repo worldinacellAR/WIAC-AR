@@ -58,7 +58,11 @@ class HomeData extends Component {
 
           <div className="card-img-overlay card_center">
             <Card.Text
-              style={{ fontSize: "7rem", letterSpacing: "0.1rem" }}
+              style={{
+                color: "#fff",
+                fontSize: "7rem",
+                letterSpacing: "0.1rem",
+              }}
               className="card_title_home"
             >
               World in a cell AR
