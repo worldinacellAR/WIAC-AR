@@ -23,7 +23,7 @@ class About extends Component {
             fontWeight: "bold",
           }}
         >
-          <Card.Title>ABOUT</Card.Title>
+          <Card.Title style={{ marginTop: "1%" }}>ABOUT</Card.Title>
         </Card>
         <Card
           style={{

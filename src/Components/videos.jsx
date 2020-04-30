@@ -6,6 +6,8 @@ import "../CSS/videos.css";
 import { CardDeck, Card } from "react-bootstrap";
 import video1 from "../Files/oneplayerdemo.mp4";
 import trailer_video from "../Files/WIAC_Trailer.mp4";
+import Walkthrough_video from "../Files/WIAC_Walkthrough.mp4";
+
 class Videos extends Component {
   state = {
     imgLink1: "https://img.icons8.com/color/48/000000/youtube-play.png",
@@ -108,7 +110,7 @@ class Videos extends Component {
             fontWeight: "bold",
           }}
         >
-          <Card.Title>MEDIA</Card.Title>
+          <Card.Title style={{ marginTop: "1%" }}>MEDIA</Card.Title>
         </Card>
         <CardDeck style={{ margin: "1rem" }}>
           <Card>
@@ -150,8 +152,8 @@ class Videos extends Component {
               Walkthrough
             </Card.Header>
             <div className="wrapper">
-              <video ref="vidRef2" width="100%" loop muted>
-                <source src={video1} type="video/mp4" />
+              <video ref="vidRef2" width="100%" loop>
+                <source src={Walkthrough_video} type="video/mp4" />
               </video>
               <div
                 style={{

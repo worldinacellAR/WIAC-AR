@@ -19,7 +19,7 @@ class Blog extends Component {
             fontWeight: "bold",
           }}
         >
-          <Card.Title>BLOG</Card.Title>
+          <Card.Title style={{ marginTop: "1%" }}>BLOG</Card.Title>
         </Card>
         <Card
           style={{
@@ -140,7 +140,7 @@ class Blog extends Component {
           <Card.Body>
             <Card.Text className="card_font">
               This session involved meeting with professor Vangelis to show our
-              progress. We showcased our little demo to the professor and the
+              progress. We showcased our little demo to professor and the
               professor was going to introduce us to one of the engineers
               working at Enklu as well as facilitate project requests. We also
               met up with Edwin, our TA, to discuss about FMOD sound format and
@@ -819,7 +819,7 @@ class Blog extends Component {
               Turns out git doesn’t resolve letter case file naming. The file
               was updated from “dissolve.cs” to “Dissolve.cs”, but after the
               code was pushed, it remained as “dissolve.cs”. Later in the day,
-              we recorded a few videos for WIAC and the professor.
+              we recorded a few videos for WIAC and professor.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -999,7 +999,7 @@ class Blog extends Component {
           </Card.Header>
           <Card.Body>
             <Card.Text className="card_font">
-              This was the final call meeting with the professor Vangelis. This
+              This was the final call meeting with Professor Vangelis. This
               meeting was about touching up and cleaning up the gameplay and the
               overall experience. Professor recommended us to use the single
               protein in the centre of the playspace and smack the other
