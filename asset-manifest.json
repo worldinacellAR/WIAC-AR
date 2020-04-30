@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/WIAC-AR/static/css/main.5b2b48c7.chunk.css",
-    "main.js": "/WIAC-AR/static/js/main.1b9b89b3.chunk.js",
-    "main.js.map": "/WIAC-AR/static/js/main.1b9b89b3.chunk.js.map",
+    "main.js": "/WIAC-AR/static/js/main.f4e75790.chunk.js",
+    "main.js.map": "/WIAC-AR/static/js/main.f4e75790.chunk.js.map",
     "runtime-main.js": "/WIAC-AR/static/js/runtime-main.ff307e2f.js",
     "runtime-main.js.map": "/WIAC-AR/static/js/runtime-main.ff307e2f.js.map",
     "static/css/2.7ad897a5.chunk.css": "/WIAC-AR/static/css/2.7ad897a5.chunk.css",
-    "static/js/2.ca0cfdc5.chunk.js": "/WIAC-AR/static/js/2.ca0cfdc5.chunk.js",
-    "static/js/2.ca0cfdc5.chunk.js.map": "/WIAC-AR/static/js/2.ca0cfdc5.chunk.js.map",
+    "static/js/2.f2c25996.chunk.js": "/WIAC-AR/static/js/2.f2c25996.chunk.js",
+    "static/js/2.f2c25996.chunk.js.map": "/WIAC-AR/static/js/2.f2c25996.chunk.js.map",
     "index.html": "/WIAC-AR/index.html",
-    "precache-manifest.c0e114fc4e0a3abcf344168f2d3f1aef.js": "/WIAC-AR/precache-manifest.c0e114fc4e0a3abcf344168f2d3f1aef.js",
+    "precache-manifest.b8c6d134be8027c0e7007d4c19afdb7b.js": "/WIAC-AR/precache-manifest.b8c6d134be8027c0e7007d4c19afdb7b.js",
     "service-worker.js": "/WIAC-AR/service-worker.js",
     "static/css/2.7ad897a5.chunk.css.map": "/WIAC-AR/static/css/2.7ad897a5.chunk.css.map",
     "static/css/main.5b2b48c7.chunk.css.map": "/WIAC-AR/static/css/main.5b2b48c7.chunk.css.map",
-    "static/js/2.ca0cfdc5.chunk.js.LICENSE.txt": "/WIAC-AR/static/js/2.ca0cfdc5.chunk.js.LICENSE.txt",
+    "static/js/2.f2c25996.chunk.js.LICENSE.txt": "/WIAC-AR/static/js/2.f2c25996.chunk.js.LICENSE.txt",
     "static/media/WIAC00.jpg": "/WIAC-AR/static/media/WIAC00.c4bea1dc.jpg",
     "static/media/blog.css": "/WIAC-AR/static/media/WIAC03.320b9aff.jpg",
     "static/media/WIAC_Trailer.mp4": "/WIAC-AR/static/media/WIAC_Trailer.40e4f1f9.mp4",
+    "static/media/WIAC_Walkthrough.mp4": "/WIAC-AR/static/media/WIAC_Walkthrough.bfcbda80.mp4",
     "static/media/angryimg.png": "/WIAC-AR/static/media/angryimg.ed69c2fa.png",
     "static/media/logo.svg": "/WIAC-AR/static/media/logo.5d5d9eef.svg",
     "static/media/oneplayerdemo.mp4": "/WIAC-AR/static/media/oneplayerdemo.00bcbd97.mp4",
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.ff307e2f.js",
     "static/css/2.7ad897a5.chunk.css",
-    "static/js/2.ca0cfdc5.chunk.js",
+    "static/js/2.f2c25996.chunk.js",
     "static/css/main.5b2b48c7.chunk.css",
-    "static/js/main.1b9b89b3.chunk.js"
+    "static/js/main.f4e75790.chunk.js"
   ]
 }
