@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/WIAC-AR/static/css/main.5b2b48c7.chunk.css",
+    "main.js": "/WIAC-AR/static/js/main.1b9b89b3.chunk.js",
+    "main.js.map": "/WIAC-AR/static/js/main.1b9b89b3.chunk.js.map",
+    "runtime-main.js": "/WIAC-AR/static/js/runtime-main.ff307e2f.js",
+    "runtime-main.js.map": "/WIAC-AR/static/js/runtime-main.ff307e2f.js.map",
+    "static/css/2.7ad897a5.chunk.css": "/WIAC-AR/static/css/2.7ad897a5.chunk.css",
+    "static/js/2.ca0cfdc5.chunk.js": "/WIAC-AR/static/js/2.ca0cfdc5.chunk.js",
+    "static/js/2.ca0cfdc5.chunk.js.map": "/WIAC-AR/static/js/2.ca0cfdc5.chunk.js.map",
+    "index.html": "/WIAC-AR/index.html",
+    "precache-manifest.26b639d0e9815aec2b121f593df0bd52.js": "/WIAC-AR/precache-manifest.26b639d0e9815aec2b121f593df0bd52.js",
+    "service-worker.js": "/WIAC-AR/service-worker.js",
+    "static/css/2.7ad897a5.chunk.css.map": "/WIAC-AR/static/css/2.7ad897a5.chunk.css.map",
+    "static/css/main.5b2b48c7.chunk.css.map": "/WIAC-AR/static/css/main.5b2b48c7.chunk.css.map",
+    "static/js/2.ca0cfdc5.chunk.js.LICENSE.txt": "/WIAC-AR/static/js/2.ca0cfdc5.chunk.js.LICENSE.txt",
+    "static/media/WIAC00.jpg": "/WIAC-AR/static/media/WIAC00.c4bea1dc.jpg",
+    "static/media/blog.css": "/WIAC-AR/static/media/WIAC03.320b9aff.jpg",
+    "static/media/WIAC_Trailer.mp4": "/WIAC-AR/static/media/WIAC_Trailer.40e4f1f9.mp4",
+    "static/media/angryimg.png": "/WIAC-AR/static/media/angryimg.ed69c2fa.png",
+    "static/media/logo.svg": "/WIAC-AR/static/media/logo.5d5d9eef.svg",
+    "static/media/oneplayerdemo.mp4": "/WIAC-AR/static/media/oneplayerdemo.00bcbd97.mp4",
+    "static/media/usc_games.png": "/WIAC-AR/static/media/usc_games.a1daf3ac.png",
+    "static/media/v4.2.png": "/WIAC-AR/static/media/v4.2.53f87f1d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff307e2f.js",
+    "static/css/2.7ad897a5.chunk.css",
+    "static/js/2.ca0cfdc5.chunk.js",
+    "static/css/main.5b2b48c7.chunk.css",
+    "static/js/main.1b9b89b3.chunk.js"
+  ]
+}
